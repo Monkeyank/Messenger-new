@@ -23,7 +23,6 @@
 		294E496B1F8A6AA800045345 /* AddFriendsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 294E49651F8A6AA700045345 /* AddFriendsCell.xib */; };
 		294E496C1F8A6AA800045345 /* AddFriendsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 294E49661F8A6AA700045345 /* AddFriendsView.xib */; };
 		294E496D1F8A6AA800045345 /* AddFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E49681F8A6AA800045345 /* AddFriendsCell.swift */; };
-		295C70C21FE0486700109DF0 /* DialogflowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295C70C11FE0486700109DF0 /* DialogflowView.swift */; };
 		295D9377209492B000A222CA /* group_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 295D9373209492AF00A222CA /* group_more@2x.png */; };
 		295D9378209492B000A222CA /* groups_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 295D9375209492AF00A222CA /* groups_blank@2x.png */; };
 		295D93842094930400A222CA /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D937A2094930400A222CA /* GroupsView.swift */; };
@@ -133,7 +132,6 @@
 		296021F41F2CF5F600544468 /* RegisterEmailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296021431F2CF5F600544468 /* RegisterEmailView.xib */; };
 		296021F51F2CF5F600544468 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296021451F2CF5F600544468 /* WelcomeView.swift */; };
 		296021F61F2CF5F600544468 /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296021461F2CF5F600544468 /* WelcomeView.xib */; };
-		2974641D1FDF01100038D976 /* chats_dialogflow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2974641C1FDF01100038D976 /* chats_dialogflow@2x.png */; };
 		2974C6FC21EA91AB00E173F1 /* SINSLazyMessageClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974C6CB21EA91AB00E173F1 /* SINSLazyMessageClient.m */; };
 		2974C6FD21EA91AB00E173F1 /* SINService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974C6CC21EA91AB00E173F1 /* SINService.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		2974C6FE21EA91AB00E173F1 /* SINSClientsObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974C6CD21EA91AB00E173F1 /* SINSClientsObserver.m */; };
@@ -292,7 +290,6 @@
 		294E49681F8A6AA800045345 /* AddFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendsCell.swift; sourceTree = "<group>"; };
 		295015181D9A5C1B00AFD8B3 /* app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app.entitlements; sourceTree = "<group>"; };
 		295018301D9A5CE600AFD8B3 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
-		295C70C11FE0486700109DF0 /* DialogflowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogflowView.swift; sourceTree = "<group>"; };
 		295D9373209492AF00A222CA /* group_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group_more@2x.png"; sourceTree = "<group>"; };
 		295D9375209492AF00A222CA /* groups_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groups_blank@2x.png"; sourceTree = "<group>"; };
 		295D937A2094930400A222CA /* GroupsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
@@ -403,7 +400,6 @@
 		296021431F2CF5F600544468 /* RegisterEmailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterEmailView.xib; sourceTree = "<group>"; };
 		296021451F2CF5F600544468 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		296021461F2CF5F600544468 /* WelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
-		2974641C1FDF01100038D976 /* chats_dialogflow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chats_dialogflow@2x.png"; sourceTree = "<group>"; };
 		2974C6C921EA91AB00E173F1 /* SINSServicePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINSServicePersistence.h; sourceTree = "<group>"; };
 		2974C6CA21EA91AB00E173F1 /* SinchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinchService.h; sourceTree = "<group>"; };
 		2974C6CB21EA91AB00E173F1 /* SINSLazyMessageClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINSLazyMessageClient.m; sourceTree = "<group>"; };
@@ -696,7 +692,6 @@
 			children = (
 				29CAE58620971786000D857D /* ChatGroupView.swift */,
 				29601FE51F2CF5F600544468 /* ChatPrivateView.swift */,
-				295C70C11FE0486700109DF0 /* DialogflowView.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -1455,7 +1450,6 @@
 			isa = PBXGroup;
 			children = (
 				29BB8F561F5C266100560F3F /* chats_blank@2x.png */,
-				2974641C1FDF01100038D976 /* chats_dialogflow@2x.png */,
 				29BB8F571F5C266100560F3F /* chats_muted@2x.png */,
 			);
 			path = chats;
@@ -1838,7 +1832,6 @@
 				296021541F2CF5F600544468 /* VideoView.xib in Resources */,
 				29D29F041D9A59E4006CA074 /* LaunchScreen.storyboard in Resources */,
 				29D7607020EFD4DF006C7148 /* rcmessage_outgoing.aiff in Resources */,
-				2974641D1FDF01100038D976 /* chats_dialogflow@2x.png in Resources */,
 				298990681F1B6FFD00AC73B3 /* wallpapers02@2x.jpg in Resources */,
 				296021871F2CF5F600544468 /* PasswordView.xib in Resources */,
 				295D93942094A65500A222CA /* tab_groups@2x.png in Resources */,
@@ -2117,7 +2110,6 @@
 				2960218C1F2CF5F600544468 /* BlockedCell.swift in Sources */,
 				29D29EF91D9A59E4006CA074 /* AppDelegate.swift in Sources */,
 				2920B18B2030AD3500DB6E07 /* AudioView.swift in Sources */,
-				295C70C21FE0486700109DF0 /* DialogflowView.swift in Sources */,
 				294E496D1F8A6AA800045345 /* AddFriendsCell.swift in Sources */,
 				29D7605920EFD49D006C7148 /* RCAudioMessageCell.swift in Sources */,
 				29E1B2FE230C0A780036E3EC /* NotificationCenter+Util.swift in Sources */,
