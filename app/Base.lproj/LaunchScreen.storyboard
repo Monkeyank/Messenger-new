@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="wZt-bn-hmY">
+                                <rect key="frame" x="-66.5" y="95" width="453" height="453"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="453" id="TAW-Cs-Jop"/>
+                                    <constraint firstAttribute="width" constant="453" id="dH8-gT-fnc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sync Chat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDs-V8-Iyr">
+                                <rect key="frame" x="0.0" y="28" width="320" height="59"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="55"/>
+                                <color key="textColor" red="0.85121806119331045" green="0.11666556207179338" blue="0.93426636995786805" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wZt-bn-hmY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0ZA-7R-TYg"/>
+                            <constraint firstItem="lDs-V8-Iyr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="6ph-n3-y6P"/>
+                            <constraint firstItem="lDs-V8-Iyr" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" symbolic="YES" id="9aD-fg-otZ"/>
+                            <constraint firstItem="wZt-bn-hmY" firstAttribute="top" secondItem="lDs-V8-Iyr" secondAttribute="bottom" constant="8" symbolic="YES" id="Rsc-BT-cLi"/>
+                            <constraint firstItem="wZt-bn-hmY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="37.5" id="agy-NJ-3GQ"/>
+                            <constraint firstItem="lDs-V8-Iyr" firstAttribute="centerX" secondItem="wZt-bn-hmY" secondAttribute="centerX" id="eeF-SK-ghK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo.png" width="1024" height="1024"/>
+    </resources>
+</document>
