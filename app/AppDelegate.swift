@@ -12,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SINServiceDelegate, SINCa
 
 	@objc var sinchService: SINService?
 
-	//---------------------------------------------------------------------------------------------------------------------------------------------
+
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
 
 		//-----------------------------------------------------------------------------------------------------------------------------------------
