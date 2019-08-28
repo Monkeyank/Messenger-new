@@ -32,7 +32,7 @@ class ChatsView: UIViewController, UISearchBarDelegate, UITableViewDataSource, U
 		super.viewDidLoad()
 		title = "Chats"
 
-		navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "chats_dialogflow"), style: .plain, target: self, action: #selector(actionDialogflow))
+		
 		navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .compose, target: self, action: #selector(actionCompose))
 
 		tableView.register(UINib(nibName: "ChatsCell", bundle: nil), forCellReuseIdentifier: "ChatsCell")
@@ -97,12 +97,7 @@ class ChatsView: UIViewController, UISearchBarDelegate, UITableViewDataSource, U
 
 	// MARK: - User actions
 	//---------------------------------------------------------------------------------------------------------------------------------------------
-	@objc func actionDialogflow() {
-
-		let dialogflowView = DialogflowView()
-		let navController = NavigationController(rootViewController: dialogflowView)
-		present(navController, animated: true)
-	}
+	
 
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	@objc func actionCompose() {
