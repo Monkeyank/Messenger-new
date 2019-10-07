@@ -1,6 +1,6 @@
 class PushNotification: NSObject {
 
-	//---------------------------------------------------------------------------------------------------------------------------------------------
+	
 	class func send(message: FObject) {
 
 		let type = message[FMESSAGE_TYPE] as! String
@@ -36,7 +36,7 @@ class PushNotification: NSObject {
 		send(userIds: userIds, text: text)
 	}
 
-	//---------------------------------------------------------------------------------------------------------------------------------------------
+	
 	class func send(userIds: [String], text: String) {
 
 		let predicate = NSPredicate(format: "objectId IN %@", userIds)
